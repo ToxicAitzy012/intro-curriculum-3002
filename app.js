@@ -39,4 +39,4 @@ rl.on('close', () => {
         return key + ': ' + value.popu10 + '=>' + value.popu15 + ' 変化率:' + value.change;
     });
     console.log(rankingStrings);
-})
+});
